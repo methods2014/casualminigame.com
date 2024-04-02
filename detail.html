@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>2048 game online play</title>
+    <meta name="keywords" content="2048 web game,Number puzzle game,Casual puzzle game">
+    <meta name="description" content="Get hooked on the addictive challenge of 2048! Combine numbered tiles, strategize your moves, and aim for the elusive 2048 tile. Play now and test your puzzle-solving skills at casualminigame.com!">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            min-height: 100vh; 
+            position: relative;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .navbar-top, .navbar-bottom {
+            background-color: #007bff;
+            padding: 10px 0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .navbar-top a, .navbar-bottom a, .footer a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .navbar-top a:hover, .navbar-bottom a:hover {
+            background-color: #0056b3;
+        }
+        .game-window {
+            width: 400px;
+            height: 400px; 
+            background-color: #ccc; 
+            margin-bottom: 20px;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .info p {
+            margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #007bff;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BLBBCQEYY2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BLBBCQEYY2');
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1>2048</h1>
+        <div class="game-window">
+            <img src="icon.png" width="400" height="400" />
+        </div>
+        <div class="info">
+            <p>Merge two 2s together to make 4, two 4s together to make 8, and two eights together to make 16，get 2048 win</p>
+            <p>PC Control up down left right   wsad</p>
+            <p>phone Control up down left right    screen key</p>
+        </div>
+        <a href="https://www.casualminigame.com/" class="button">PLAY</a>
+    </div>
+    <div class="footer">
+        <a href="https://www.casualminigame.com">HOME</a>
+    </div>
+</body>
+</html>
